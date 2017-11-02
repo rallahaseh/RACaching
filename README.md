@@ -8,7 +8,7 @@
 The purpose of the library is to abstract the downloading (images, pdf, zip, etc) and caching of remote resources (images, JSON, XML, etc) in-memory.
 
 <br>
-<img src="https://media.giphy.com/media/26n7aMoR9RbXCLnR6/giphy.gif"/>
+<img src="https://media.giphy.com/media/3otWpsDZJezKeT6bCw/giphy.giff"/>
 <br>
 
 ## Example
@@ -22,9 +22,7 @@ Import the framework
 import RACaching
 ```
 
-Extend `RAURLObserverProtocol` to the class
-<br>
-Define a `RAResourceManager`, which loads all the resources you need from http/https.
+Extend `RAURLObserverProtocol` to the class and define a `RAResourceManager`, which loads all the resources you need from http/https.
 <br>
 **Resource Manager:**
 > - Checks where corresponding resource for a URL in cache using cacheManager, if the resource is not found it checks if already downloading by the downloadsManager.
