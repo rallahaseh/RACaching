@@ -8,7 +8,7 @@
 The purpose of the library is to abstract the downloading (images, pdf, zip, etc) and caching of remote resources (images, JSON, XML, etc) in-memory.
 
 <br>
-<img src="https://media.giphy.com/media/3otWpsDZJezKeT6bCw/giphy.giff"/>
+<img src="https://media.giphy.com/media/3otWpsDZJezKeT6bCw/giphy.gif"/>
 <br>
 
 ## Example
@@ -53,8 +53,6 @@ rallahaseh, rallahaseh@gmail.com
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
