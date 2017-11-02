@@ -25,6 +25,7 @@ import RACaching
 Extend `RAURLObserverProtocol` to the class
 <br>
 Define a `RAResourceManager`, which loads all the resources you need from http/https.
+<br>
 **Resource Manager:**
 > - Checks where corresponding resource for a URL in cache using cacheManager, if the resource is not found it checks if already downloading by the downloadsManager.
 > - If the resource is not found then it creats resource and initialises download for that resource with adding observers for that resource.
