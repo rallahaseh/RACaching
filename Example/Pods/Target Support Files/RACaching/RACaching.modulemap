@@ -1,0 +1,6 @@
+framework module RACaching {
+  umbrella header "RACaching-umbrella.h"
+
+  export *
+  module * { export * }
+}

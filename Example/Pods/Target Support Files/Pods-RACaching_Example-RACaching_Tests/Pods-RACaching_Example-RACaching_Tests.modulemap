@@ -1,0 +1,6 @@
+framework module Pods_RACaching_Example_RACaching_Tests {
+  umbrella header "Pods-RACaching_Example-RACaching_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

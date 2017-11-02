@@ -12,27 +12,33 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		87D902B6F254CFAA6775C895 /* Pods_RACaching_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02A586C68EA3972DD6116E3 /* Pods_RACaching_Tests.framework */; };
-		A407CB4AF64EBF3B34CC0DBC /* Pods_RACaching_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C565B637436737842DD2B4 /* Pods_RACaching_Example.framework */; };
+		9C03308F1FAAFC540004E27B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD41AFB9204008FA782 /* Info.plist */; };
+		9C03309F1FAAFCC80004E27B /* RALoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03309E1FAAFCC80004E27B /* RALoaderTests.swift */; };
+		9C0330A41FAAFD900004E27B /* RADownloadResorucesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0330A31FAAFD900004E27B /* RADownloadResorucesTest.swift */; };
+		9C0330A61FAAFDA50004E27B /* RACancelDownloadingResorucesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0330A51FAAFDA50004E27B /* RACancelDownloadingResorucesTest.swift */; };
+		9C69DC761FAA303B00940382 /* FetchingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69DC751FAA303B00940382 /* FetchingData.swift */; };
+		9C831F241FA9D84300810C19 /* Pods_RACaching_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C565B637436737842DD2B4 /* Pods_RACaching_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		9C0330991FAAFCB20004E27B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = RACaching;
+			remoteInfo = RACaching_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15E30BD3EAED7EED4C70E9A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		00A76286576AF6576AFF9F43 /* Pods-RACaching_Example-RACaching_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Example-RACaching_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Example-RACaching_Tests/Pods-RACaching_Example-RACaching_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		15E30BD3EAED7EED4C70E9A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		281275D393150E89AA845548 /* Pods-RACaching_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Tests/Pods-RACaching_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32BD1C910AD04F4708AC464E /* Pods-RACaching_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Tests/Pods-RACaching_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49220C8E359CCC0A57987376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49220C8E359CCC0A57987376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5A35FEBCC8093F803DE9DDFC /* Pods-RACaching_Example-RACaching_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Example-RACaching_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Example-RACaching_Tests/Pods-RACaching_Example-RACaching_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B1F777764E78F391CF7320D /* Pods-RACaching_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Example/Pods-RACaching_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E346A44EA11DF0CD49EE60A /* Pods_RACaching_Example_RACaching_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACaching_Example_RACaching_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RACaching_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACaching_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +46,15 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* RACaching_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACaching_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		9C0330941FAAFCB20004E27B /* RACaching_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACaching_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0330981FAAFCB20004E27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C03309E1FAAFCC80004E27B /* RALoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RALoaderTests.swift; sourceTree = "<group>"; };
+		9C0330A31FAAFD900004E27B /* RADownloadResorucesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RADownloadResorucesTest.swift; sourceTree = "<group>"; };
+		9C0330A51FAAFDA50004E27B /* RACancelDownloadingResorucesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACancelDownloadingResorucesTest.swift; sourceTree = "<group>"; };
+		9C69DC751FAA303B00940382 /* FetchingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchingData.swift; sourceTree = "<group>"; };
+		9CC149A01FA9D1AB00D01D2A /* RACaching.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RACaching.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RACaching-dcpszwvckgnbbmautvmucmndnkmx/Build/Products/Debug-iphonesimulator/RACaching/RACaching.framework"; sourceTree = "<group>"; };
 		B5C565B637436737842DD2B4 /* Pods_RACaching_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACaching_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA804978B8A304B4123DFD9 /* RACaching.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RACaching.podspec; path = ../RACaching.podspec; sourceTree = "<group>"; };
+		DDA804978B8A304B4123DFD9 /* RACaching.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RACaching.podspec; path = ../RACaching.podspec; sourceTree = "<group>"; };
 		E02A586C68EA3972DD6116E3 /* Pods_RACaching_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACaching_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F77E49140E2E2287705291 /* Pods-RACaching_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACaching_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACaching_Example/Pods-RACaching_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,15 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A407CB4AF64EBF3B34CC0DBC /* Pods_RACaching_Example.framework in Frameworks */,
+				9C831F241FA9D84300810C19 /* Pods_RACaching_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		9C0330911FAAFCB20004E27B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D902B6F254CFAA6775C895 /* Pods_RACaching_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +83,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for RACaching */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				9C0330951FAAFCB20004E27B /* RACaching_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D0ACC4A954BDA0D9DAD7D88E /* Pods */,
 				8F3E8552F6CCC2FF8A7EEC2E /* Frameworks */,
@@ -85,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* RACaching_Example.app */,
-				607FACE51AFB9204008FA782 /* RACaching_Tests.xctest */,
+				9C0330941FAAFCB20004E27B /* RACaching_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				9C69DC751FAA303B00940382 /* FetchingData.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -112,23 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,10 +135,31 @@
 		8F3E8552F6CCC2FF8A7EEC2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CC149A01FA9D1AB00D01D2A /* RACaching.framework */,
 				B5C565B637436737842DD2B4 /* Pods_RACaching_Example.framework */,
 				E02A586C68EA3972DD6116E3 /* Pods_RACaching_Tests.framework */,
+				5E346A44EA11DF0CD49EE60A /* Pods_RACaching_Example_RACaching_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C0330951FAAFCB20004E27B /* RACaching_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C03309E1FAAFCC80004E27B /* RALoaderTests.swift */,
+				9C0330A31FAAFD900004E27B /* RADownloadResorucesTest.swift */,
+				9C0330A51FAAFDA50004E27B /* RACancelDownloadingResorucesTest.swift */,
+				9C0330A21FAAFD3D0004E27B /* Supporting Files */,
+			);
+			path = RACaching_ExampleTests;
+			sourceTree = "<group>";
+		};
+		9C0330A21FAAFD3D0004E27B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C0330981FAAFCB20004E27B /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D0ACC4A954BDA0D9DAD7D88E /* Pods */ = {
@@ -155,6 +169,8 @@
 				E1F77E49140E2E2287705291 /* Pods-RACaching_Example.release.xcconfig */,
 				32BD1C910AD04F4708AC464E /* Pods-RACaching_Tests.debug.xcconfig */,
 				281275D393150E89AA845548 /* Pods-RACaching_Tests.release.xcconfig */,
+				00A76286576AF6576AFF9F43 /* Pods-RACaching_Example-RACaching_Tests.debug.xcconfig */,
+				5A35FEBCC8093F803DE9DDFC /* Pods-RACaching_Example-RACaching_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -182,25 +198,22 @@
 			productReference = 607FACD01AFB9204008FA782 /* RACaching_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* RACaching_Tests */ = {
+		9C0330931FAAFCB20004E27B /* RACaching_ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RACaching_Tests" */;
+			buildConfigurationList = 9C03309B1FAAFCB20004E27B /* Build configuration list for PBXNativeTarget "RACaching_ExampleTests" */;
 			buildPhases = (
-				973372F556B6EAF1326F0464 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				B45DBABE080BCCF3CE684ED8 /* [CP] Embed Pods Frameworks */,
-				7EFFE95098EA5A08BF2BFDDF /* [CP] Copy Pods Resources */,
+				9C0330901FAAFCB20004E27B /* Sources */,
+				9C0330911FAAFCB20004E27B /* Frameworks */,
+				9C0330921FAAFCB20004E27B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+				9C03309A1FAAFCB20004E27B /* PBXTargetDependency */,
 			);
-			name = RACaching_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* RACaching_Tests.xctest */;
+			name = RACaching_ExampleTests;
+			productName = RACaching_ExampleTests;
+			productReference = 9C0330941FAAFCB20004E27B /* RACaching_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,11 +228,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W797LTQ4Q7;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					9C0330931FAAFCB20004E27B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -238,7 +252,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* RACaching_Example */,
-				607FACE41AFB9204008FA782 /* RACaching_Tests */,
+				9C0330931FAAFCB20004E27B /* RACaching_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,13 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C03308F1FAAFC540004E27B /* Info.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		9C0330921FAAFCB20004E27B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,57 +330,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACaching_Example/Pods-RACaching_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7EFFE95098EA5A08BF2BFDDF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACaching_Tests/Pods-RACaching_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		973372F556B6EAF1326F0464 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RACaching_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B45DBABE080BCCF3CE684ED8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RACaching_Tests/Pods-RACaching_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACaching_Tests/Pods-RACaching_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -374,25 +338,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9C69DC761FAA303B00940382 /* FetchingData.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		9C0330901FAAFCB20004E27B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				9C0330A41FAAFD900004E27B /* RADownloadResorucesTest.swift in Sources */,
+				9C0330A61FAAFDA50004E27B /* RACancelDownloadingResorucesTest.swift in Sources */,
+				9C03309F1FAAFCC80004E27B /* RALoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		9C03309A1FAAFCB20004E27B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* RACaching_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			targetProxy = 9C0330991FAAFCB20004E27B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,6 +413,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -461,11 +429,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -499,6 +470,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -507,10 +479,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -520,13 +495,17 @@
 			baseConfigurationReference = 5B1F777764E78F391CF7320D /* Pods-RACaching_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RACaching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/RACaching\" $(inherited)";
 			};
 			name = Debug;
 		};
@@ -535,51 +514,54 @@
 			baseConfigurationReference = E1F77E49140E2E2287705291 /* Pods-RACaching_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RACaching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/RACaching\" $(inherited)";
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		9C03309C1FAAFCB20004E27B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32BD1C910AD04F4708AC464E /* Pods-RACaching_Tests.debug.xcconfig */;
+			baseConfigurationReference = 00A76286576AF6576AFF9F43 /* Pods-RACaching_Example-RACaching_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RACaching_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashed.RACaching-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACaching_Example.app/RACaching_Example";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		9C03309D1FAAFCB20004E27B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 281275D393150E89AA845548 /* Pods-RACaching_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = RACaching_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashed.RACaching-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACaching_Example.app/RACaching_Example";
 			};
 			name = Release;
 		};
@@ -604,14 +586,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RACaching_Tests" */ = {
+		9C03309B1FAAFCB20004E27B /* Build configuration list for PBXNativeTarget "RACaching_ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				9C03309C1FAAFCB20004E27B /* Debug */,
+				9C03309D1FAAFCB20004E27B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

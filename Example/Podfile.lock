@@ -1,0 +1,16 @@
+PODS:
+  - RACaching (0.1.0)
+
+DEPENDENCIES:
+  - RACaching (from `../`)
+
+EXTERNAL SOURCES:
+  RACaching:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RACaching: c76b3760660a8bec48d48bb245aecef77603a132
+
+PODFILE CHECKSUM: 838c437a5922517eaefb6344a1b88e81326446d5
+
+COCOAPODS: 1.3.1
