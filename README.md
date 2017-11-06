@@ -36,20 +36,6 @@ open func getDataFor(_ urlString:, withIdentifier identifier:, withUrlObserver o
 ```
 Where it checks if the resource of the URL exists or not to creates new resource if not, the `identifier` here to add observers to a resource and delete it if object does not need data and the `observer` communicate the status of data fetch from Cache or Server
 
-## Installation
-
-RALocalization is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'RALocalization'
-```
-
-## Author
-
-rallahaseh, rallahaseh@gmail.com
-
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
