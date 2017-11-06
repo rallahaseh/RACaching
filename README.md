@@ -11,10 +11,6 @@ The purpose of the library is to abstract the downloading (images, pdf, zip, etc
 <img src="https://media.giphy.com/media/3otWpsDZJezKeT6bCw/giphy.gif"/>
 <br>
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Usage
 Import the framework
 
@@ -36,10 +32,6 @@ open func getDataFor(_ urlString:, withIdentifier identifier:, withUrlObserver o
 ```
 Where it checks if the resource of the URL exists or not to creates new resource if not, the `identifier` here to add observers to a resource and delete it if object does not need data and the `observer` communicate the status of data fetch from Cache or Server
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 RACaching is available through [CocoaPods](http://cocoapods.org). To install
@@ -48,6 +40,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'RACaching'
 ```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
